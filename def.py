@@ -1,10 +1,9 @@
 __author__ = 'flynn'
-def add(x,y):
-    summ = 0
-    for i in range(x,y+1):
-        summ +=i
-    print(summ)
+import im
+import learning
+im.output()
+print(im.greeting("Flynn"))
 
-x=1
-y=100
-add(x,y)
+bart=learning.Student('bart',90)
+
+print(bart.name,'\n',bart.score)
