@@ -5,5 +5,11 @@ im.output()
 print(im.greeting("Flynn"))
 
 bart=learning.Student('bart',90)
+hanmeimei = learning.Lilei('Lilei',80)
 
-print(bart.name,'\n',bart.score)
+bart.printscore()
+bart.level()
+hanmeimei.printscore()
+hanmeimei.level()
+
+print(len(hanmeimei))
